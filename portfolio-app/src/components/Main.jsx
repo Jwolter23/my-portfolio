@@ -5,7 +5,7 @@ import Resume from './Resume'
 import Contact from './Contact'
 
 
-export default function Main (props) {
+export default function Main () {
     return (
         <div>
             <Routes>

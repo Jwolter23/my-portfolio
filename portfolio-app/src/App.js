@@ -3,9 +3,10 @@ import Main from './components/Main'
 import Header from './components/Header'
 function App() {
   return (
-    <div className="App">
-      <Main />
+    <div className=" bg-blue-300">
+    
       <Header />
+      <Main />
     </div>
   );
 }
