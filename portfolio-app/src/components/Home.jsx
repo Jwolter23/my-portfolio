@@ -1,13 +1,8 @@
 import { useRef } from 'react'
 import meWedding from '../Assets/meWedding.jpg'
 
-export default function Home () {
-    const myRef = useRef(null)
-
-    const handleClick = () => {
-        myRef.current.scrollIntoView({ behavior: 'smooth'})
-    }
-
+export default function Home ({ myRef}) {
+    
     return (
         <div>
             <div className="h-screen w-screen flex items-center">
@@ -22,8 +17,8 @@ export default function Home () {
                 </div>
                 
             </div>
-            <div className='flex justify-center h-screen w-screen'>
-                <h1 className=' text-silver'>Projects</h1>
+            <div className=' h-screen w-screen'>
+                <h1 ref={myRef} className=' text-silver flex justify-center text-3xl'>Projects</h1>
                 <div>Project 1</div>
                 <div>Project 2</div>
                 <div> Project 3</div>
@@ -37,4 +32,5 @@ export default function Home () {
             </div>
         </div>
     )
+    
 }
