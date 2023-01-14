@@ -11,7 +11,7 @@ export default function Home () {
     return (
         <div>
             <div className=" h-screen w-scre flex items-center">
-                <div className='flex mx-auto my-32 w-2/3'>
+                <div className='flex mx-auto my-32 w-3/4'>
                     <div className='flex flex-col'>
                             <h4 className='text-blue-900'>Hi, my name is...</h4>
                             <h1 className="text-5xl">Jordan Wolter</h1>
