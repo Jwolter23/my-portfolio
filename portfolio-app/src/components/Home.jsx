@@ -12,7 +12,7 @@ export default function Home () {
         <div>
             <div className="h-screen w-screen flex items-center">
                 <div className='flex  mx-auto pb-10 w-3/4 justify-around'>
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col text-silver'>
                             <h4 className='text-blue-900 mb-4'>Hi, my name is...</h4>
                             <h1 className="text-6xl mb-2">Jordan Wolter</h1>
                             <h3 className=" text-2xl font-bold">Full Stack Software Developer</h3>
@@ -23,7 +23,7 @@ export default function Home () {
                 
             </div>
             <div className='flex justify-center h-screen w-screen'>
-                <h1 clas>Projects</h1>
+                <h1 className=' text-silver'>Projects</h1>
                 <div>Project 1</div>
                 <div>Project 2</div>
                 <div> Project 3</div>

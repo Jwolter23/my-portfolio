@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     colors: {
       sea: '#2b5876',
-      burp: '#4e4376'
+      burp: '#4e4376',
+      silver: '#bdc3c7'
     },
     extend: {},
   },
