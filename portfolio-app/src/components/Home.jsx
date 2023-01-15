@@ -34,13 +34,15 @@ export default function Home ({ myRef, handleClick }) {
                 <div className='w-1/3 h-1/3  border-2  justify-center'>
                     <img src={FilmFolio} className='w-full h-full'></img>
                 </div>
-                <div className='w-1/3 h-2/3 flex  border-2 '>
-                    <h1 className='w-full h-1/3 flex '>Testing out the text here as this is where I will be making my project descriptions dddddh jdv kd v djk vkjd vjkd v jdk vkjd vkjd jkvd jkv djk vdjkvjkdjkvd jvkd vjdk vdjk vdjkv dkv kd dvk vjd vdjk vd vkd kv d vdkkvd kvd  cdk cdk cdk ckd kd ckd kc kd c d cdk kcd cd kcd kcd d kcd k cd kcd kcd cd kcddcjcdcd kjk d ckddc kdd kckd dkj dkd kd dkk dkk d d kd kd dk d  dkk d c kd kd kcd kd  cd kd kcd cd d kdc c d d kd</h1>
+                <div className='w-1/3 h-2/3 flex flex-col border-2 '>
+                    <h1 className='flex justify-center underline font-bold  '>FilmFolio</h1>
+                    <h1 className='w-full h-1/3 flex  '>Testing out the text here as this is where I will be making my project descriptions dddddh jdv kd v djk vkjd vjkd v jdk vkjd vkjd jkvd jkv djk vdjkvjkdjkvd jvkd vjdk vdjk vdjkv dkv kd dvk vjd vdjk vd vkd kv d vdkkvd kvd  cdk cdk cdk ckd kd ckd kc kd c d cdk kcd cd kcd kcd d kcd k cd kcd kcd cd kcddcjcdcd kjk d ckddc kdd kckd dkj dkd kd dkk dkk d d kd kd dk d  dkk d c kd kd kcd kd  cd kd kcd cd d kdc c d d kd</h1>
                 </div>
                 </div>
 
                 <div className='flex gap-6 mt-6 justify-end'>
-                <div className='w-1/3 h-2/3 flex  border-2 '>
+                <div className='w-1/3 h-2/3 flex flex-col  border-2 '>
+                <h1 className='flex justify-center underline font-bold'>Instrument Store</h1>
                     <h1 className='w-full h-1/3 flex '>Testing out the text here as this is where I will be making my project descriptions dddddh jdv kd v djk vkjd vjkd v jdk vkjd vkjd jkvd jkv djk vdjkvjkdjkvd jvkd vjdk vdjk vdjkv dkv kd dvk vjd vdjk vd vkd kv d vdkkvd kvd  cdk cdk cdk ckd kd ckd kc kd c d cdk kcd cd kcd kcd d kcd k cd kcd kcd cd kcddcjcdcd kjk d ckddc kdd kckd dkj dkd kd dkk dkk d d kd kd dk d  dkk d c kd kd kcd kd  cd kd kcd cd d kdc c d d kd</h1>
                 </div>
                 <div className='w-1/3 h-1/3  border-2 flex justify-center'>
@@ -53,15 +55,17 @@ export default function Home ({ myRef, handleClick }) {
                 <div className='w-1/3 h-1/3  border-2 flex justify-center'>
                     <img src={WolterFinance} className='w-full h-full'></img>
                 </div>
-                <div className='w-1/3 h-2/3 flex  border-2 '>
+                <div className='w-1/3 h-2/3 flex flex-col border-2 '>
+                <h1 className='flex justify-center underline font-bold'>Wolter Finance</h1>
                     <h1 className='w-full h-1/3 flex '>Testing out the text here as this is where I will be making my project descriptions dddddh jdv kd v djk vkjd vjkd v jdk vkjd vkjd jkvd jkv djk vdjkvjkdjkvd jvkd vjdk vdjk vdjkv dkv kd dvk vjd vdjk vd vkd kv d vdkkvd kvd  cdk cdk cdk ckd kd ckd kc kd c d cdk kcd cd kcd kcd d kcd k cd kcd kcd cd kcddcjcdcd kjk d ckddc kdd kckd dkj dkd kd dkk dkk d d kd kd dk d  dkk d c kd kd kcd kd  cd kd kcd cd d kdc c d d kd</h1>
                 </div>
                 </div>
 
 
                 <div className='flex gap-6 mt-4 justify-end'>
-                <div className='w-1/3 h-2/3 flex  border-2 '>
-                    <h1 className='w-full h-1/3 flex '>Testing out the text here as this is where I will be making my project descriptions dddddh jdv kd v djk vkjd vjkd v jdk vkjd vkjd jkvd jkv djk vdjkvjkdjkvd jvkd vjdk vdjk vdjkv dkv kd dvk vjd vdjk vd vkd kv d vdkkvd kvd  cdk cdk cdk ckd kd ckd kc kd c d cdk kcd cd kcd kcd d kcd k cd kcd kcd cd kcddcjcdcd kjk d ckddc kdd kckd dkj dkd kd dkk dkk d d kd kd dk d  dkk d c kd kd kcd kd  cd kd kcd cd d kdc c d d kd</h1>
+                <div className='w-1/3 h-2/3 flex flex-col border-2 '>
+                <h1 className='flex justify-center underline font-bold'>Matrix Trivia</h1>
+                    <h1 className='w-full h-1/3 flex'>Testing out the text here as this is where I will be making my project descriptions dddddh jdv kd v djk vkjd vjkd v jdk vkjd vkjd jkvd jkv djk vdjkvjkdjkvd jvkd vjdk vdjk vdjkv dkv kd dvk vjd vdjk vd vkd kv d vdkkvd kvd  cdk cdk cdk ckd kd ckd kc kd c d cdk kcd cd kcd kcd d kcd k cd kcd kcd cd kcddcjcdcd kjk d ckddc kdd kckd dkj dkd kd dkk dkk d d kd kd dk d  dkk d c kd kd kcd kd  cd kd kcd cd d kdc c d d kd</h1>
                 </div>
                 <div className='w-1/3 h-1/3  border-2 flex justify-center'>
                     <img src={MatrixTrivia} className='w-full h-full'></img>
