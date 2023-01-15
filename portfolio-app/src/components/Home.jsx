@@ -5,13 +5,23 @@ import Instrument from '../Assets/Instrument.jpg'
 import WolterFinance from '../Assets/WolterFinance.png'
 import MatrixTrivia from '../Assets/MatrixTrivia.png'
 import Nav from './Nav'
+import { AiOutlineGithub } from 'react-icons/ai'
+import { AiOutlineMail } from 'react-icons/ai'
+import { AiFillLinkedin } from 'react-icons/ai'
+import { AiFillProfile } from 'react-icons/ai'
 
-export default function Home ({ myRef, handleClick }) {
+
+export default function Home ({ myRef, myRef2, handleClick2, handleClick }) {
     
     return (
         <div>
-            <div className='w-99 flex justify-end mr-9'>
+            <div className='w-99 flex justify-end mr-9 gap-5'>
+            <button>About Me</button>
             <button onClick={handleClick}>Projects</button>
+            <button onClick={handleClick2}>Contact</button>
+            
+            <a className='resume' href="https://docs.google.com/document/d/1P3XO5b7imrJh4cM60MMumxrxfXUk09tZn_G4ZueSs_w/edit" target="_blank">Resume</a>
+            
             </div>
             
             <div className="h-screen w-screen flex items-center">
@@ -28,7 +38,7 @@ export default function Home ({ myRef, handleClick }) {
             </div>
             
             <div className=' h-screen w-screen px-8 pt-7'>
-                <h1 ref={myRef} className=' text-silver flex justify-center text-3xl'>Projects</h1>
+                <h1 ref={myRef} className=' text-silver flex justify-center text-4xl'>Projects</h1>
 
                 <div className='flex gap-6 mt-10'>
                 <div className='w-2/5 h-2/3  border-2  justify-center'>
@@ -99,7 +109,21 @@ export default function Home ({ myRef, handleClick }) {
                 <h1>Resume</h1>
             </div>
             <div className='h-screen w-screen'>
-                <h1>Contact</h1>
+                <h1 ref={myRef2} className='flex justify-center text-silver text-4xl'>Contact Me!</h1>
+
+                <div className='flex justify-center text-3xl text-silver items-center'>
+                    <h1 className='flex items-center'>Now that you've seen my portfolio let's connect!</h1>
+                    
+                </div>
+
+                <div className='flex justify-center text-6xl gap-10'>
+                <h2> <AiOutlineGithub /></h2>
+                <h2> <AiOutlineMail /> </h2>
+                <h2> <AiFillLinkedin /> </h2>
+                <h2> <AiFillProfile /> </h2>
+                </div>
+
+
             </div>
         </div>
     )
