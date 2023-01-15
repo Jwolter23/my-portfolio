@@ -66,11 +66,11 @@ export default function Home ({ myRef, handleClick }) {
                 </div>
                 <div className='w-1/3 h-2/3 flex flex-col border-2 '>
                 <h1 className='flex justify-center underline font-bold'>Wolter Finance</h1>
-                    <h1 className='w-full h-1/3 flex '>Wolter Finance is an app used to stay up to date on stock market information. This app utilizes a third-party API from Financial Modeling Prep. (https://site.financialmodelingprep.com/). With Wolter Finance, users will be greeted with new stories, top market price and percent changes, daily sector report all updating in real time through setInterval. Users can also See daily activity of the highest gainers and loser stocks, along with a search feature that will display in depth detail of said stock along with new stories from the past week. All of this was done through axios calls using Javascript, React, and CSS.</h1>
+                    <h1 className='w-full h-1/3 flex '>Wolter Finance is an app used to stay up to date on stock market information. This app utilizes a third-party API from Financial Modeling Prep. With Wolter Finance, users will be greeted with new stories, top market price and percent changes, daily sector report all updating in real time through setInterval. Users can also See daily activity of the highest gainers and loser stocks, along with a search feature that will display in depth detail of said stock along with new stories from the past week. All of this was done through axios calls using Javascript, React, and CSS.</h1>
                     <div className='flex gap-3 justify-center'>
                     <a href="https://github.com/Jwolter23/Wolter-Finance" target="_blank">GitHub</a>
                     <a href="https://wolterfinance.netlify.app/" target="_blank">Deployed Site</a>
-                        
+                    <a href="https://site.financialmodelingprep.com/" target="_blank">FMP API</a>
                     </div>
                 </div>
                 </div>
