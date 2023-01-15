@@ -6,7 +6,10 @@ export default function Home ({ myRef, handleClick }) {
     
     return (
         <div>
+            <div className='w-99 flex justify-end mr-9'>
             <button onClick={handleClick}>Projects</button>
+            </div>
+            
             <div className="h-screen w-screen flex items-center">
                 <div className='flex  mx-auto pb-10 w-3/4 justify-around'>
                     <div className='flex flex-col text-silver'>
@@ -21,7 +24,9 @@ export default function Home ({ myRef, handleClick }) {
             </div>
             <div className=' h-screen w-screen'>
                 <h1 ref={myRef} className=' text-silver flex justify-center text-3xl'>Projects</h1>
-                <div>Project 1</div>
+                <div className='w-3/4 py-8 px-8'>
+                    Project 1
+                </div>
                 <div>Project 2</div>
                 <div> Project 3</div>
                 <div> Project 4</div>
