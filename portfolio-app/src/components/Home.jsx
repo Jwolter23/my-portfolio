@@ -11,12 +11,12 @@ import { AiFillLinkedin } from 'react-icons/ai'
 import { AiFillProfile } from 'react-icons/ai'
 
 
-export default function Home ({ myRef, myRef2, handleClick2, handleClick }) {
+export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick2, handleClick }) {
     
     return (
         <div>
             <div className='w-99 flex justify-end mr-9 gap-5'>
-            <button>About Me</button>
+            <button onClick={handleClick3}>About Me</button>
             <button onClick={handleClick}>Projects</button>
             <button onClick={handleClick2}>Contact</button>
             
@@ -35,6 +35,10 @@ export default function Home ({ myRef, myRef2, handleClick2, handleClick }) {
                     <img src={meWedding} className='rounded-lg object-cover'></img>
                 </div>
                 
+            </div>
+
+            <div className='w-screen h-screen'>
+                <h1 ref={myRef3} className='flex justify-center text-4xl text-silver'>About Me</h1>
             </div>
             
             <div className=' h-screen w-screen px-8 pt-7'>
@@ -106,22 +110,27 @@ export default function Home ({ myRef, myRef2, handleClick2, handleClick }) {
 
 
             <div className='h-screen w-screen'>
-                <h1>Resume</h1>
+                <h1 className='opacity-0'>Resume</h1>
             </div>
-            <div className='h-screen w-screen'>
+
+
+            <div className='h-screen w-screen '>
                 <h1 ref={myRef2} className='flex justify-center text-silver text-4xl'>Contact Me!</h1>
 
-                <div className='flex justify-center text-3xl text-silver items-center'>
-                    <h1 className='flex items-center'>Now that you've seen my portfolio let's connect!</h1>
-                    
-                </div>
+                
 
-                <div className='flex justify-center text-6xl gap-10'>
-                <h2> <AiOutlineGithub /></h2>
-                <h2> <AiOutlineMail /> </h2>
-                <h2> <AiFillLinkedin /> </h2>
-                <h2> <AiFillProfile /> </h2>
+                <div className=' w-screen h-2/5 flex items-center justify-center text-6xl gap-10 border-2'>
+                
+                <div className='flex justify-center text-3xl text-silver '>
+                    <h1>Now that you've seen my portfolio let's connect!</h1>
                 </div>
+                <a href="https://github.com/Jwolter23" target="_blank" className='text-6xl '><AiOutlineGithub /></a>
+                <a href="mailto:jwolter456@gmail.com" target="_blank" className='text-6xl'><AiOutlineMail /></a>
+                <a href="https://www.linkedin.com/in/jordan-wolter/" target="_blank" className='text-6xl'><AiFillLinkedin /></a>
+                <a href="https://docs.google.com/document/d/1P3XO5b7imrJh4cM60MMumxrxfXUk09tZn_G4ZueSs_w/edit" target="_blank" className='text-6xl'><AiFillProfile /></a>
+                
+                </div>
+                
 
 
             </div>
