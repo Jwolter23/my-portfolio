@@ -1,10 +1,12 @@
 import { useRef } from 'react'
 import meWedding from '../Assets/meWedding.jpg'
+import Nav from './Nav'
 
-export default function Home ({ myRef}) {
+export default function Home ({ myRef, handleClick }) {
     
     return (
         <div>
+            <button onClick={handleClick}>Projects</button>
             <div className="h-screen w-screen flex items-center">
                 <div className='flex  mx-auto pb-10 w-3/4 justify-around'>
                     <div className='flex flex-col text-silver'>
