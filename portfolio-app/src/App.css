@@ -1,6 +1,6 @@
 a{
   font-size: 18px;
-  color: #e1e1e1;
+  color: #BDD1EB;
   font-family: inherit;
   font-weight: 800;
   cursor: pointer;
@@ -15,7 +15,7 @@ a{
 
 a:focus,
 a:hover {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 a:focus:after,
