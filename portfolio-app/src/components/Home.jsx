@@ -22,6 +22,7 @@ import { SiPostgresql } from 'react-icons/si'
 import { AiFillCode } from 'react-icons/ai'
 import { FaJava } from 'react-icons/fa'
 import { DiPhp } from 'react-icons/di'
+import { SiTailwindcss } from 'react-icons/si'
 
 export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick2, handleClick }) {
     
@@ -52,6 +53,9 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
             </div>
 
             <h1 ref={myRef3} className='flex justify-center text-4xl text-silver'>About Me</h1>
+            <div className='flex justify-center w-screen mt-10 text-silver'>
+                <h1 className='text-1xl w-2/5'> Welcome to my portfolio! I am a Full-Stack Software Engineer based in the Philadelphia / NYC metroploitan area. I have extensive knowledge in both font-end and back-end languages / frameworks. As you will see below, I have projects built in JavaScript, Python, React, Django, Sequelize, Node, and many other languages, frameworks, and dev tools. Currently I am refining my skills by building out projects in the languages I currently know, while also learning new languages like Java, PHP, and Tailwind (which this site was built with). </h1>
+            </div>
             <div className='w-screen h-screen flex justify-center'>
                 
 
@@ -73,6 +77,7 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
                             <h2 className='text-4xl'> <FaNodeJs /></h2>
                             <h2 className='text-6xl'> <DiDjango /></h2>
                             <h2 className='text-4xl'> <SiSequelize /></h2>
+                            <h2 className='text-4xl'> <SiTailwindcss /></h2>
                         </div>
                     </div>
                     <div className='card w-full h-2/5'>
