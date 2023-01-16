@@ -5,7 +5,8 @@ module.exports = {
     colors: {
       sea: '#2b5876',
       burp: '#4e4376',
-      silver: '#bdc3c7'
+      silver: '#bdc3c7',
+      darkg: '#4D7897'
     },
     extend: {},
   },
