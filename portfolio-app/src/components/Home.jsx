@@ -37,14 +37,16 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
             </div>
             
             <div className="h-screen w-screen flex items-center">
-                <div className='flex  mx-auto pb-10 w-3/4 justify-around'>
+                <div className='flex  mx-auto pb-10 w-3/4 justify-around items-center'>
                     <div className='flex flex-col text-silver'>
-                            <h4 className='text-blue-900 mb-4'>Hi, my name is...</h4>
+                            <h4 className='text-burp mb-4'>Hi, my name is...</h4>
                             <h1 className="text-6xl mb-2">Jordan Wolter</h1>
                             <h3 className=" text-2xl font-bold">Full Stack Software Developer</h3>
-                            <h3 className='flex w-2/3 mt-4'>I am a sales representative turned Software Developer who brings exceptional communication, problem-solving skills, and a hard work ethic to any team I am on. Being a very result-driven individual motivated by utilizing my Full-stack development and interpersonal skills to break down and solve problems. I excel at working and collaborating with a team while also using my individual skills to solve various issues thrown my way</h3>
+                            <h3 className='flex w-2/3 mt-4 text-lg'>I am a sales representative turned Software Developer who brings exceptional communication, problem-solving skills, and a hard work ethic to any team I am on. Being a very result-driven individual motivated by utilizing my Full-stack development and interpersonal skills to break down and solve problems. I excel at working and collaborating with a team while also using my individual skills to solve various issues thrown my way</h3>
                     </div>
-                    <img src={meWedding} className='rounded-lg object-cover'></img>
+                    <div className='flex justify-center items-center w-full h-full'>
+                            <img src={meWedding} className='rounded-lg object-contain'/>
+                    </div>
                 </div>
                 
             </div>
@@ -53,8 +55,8 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
             <div className='w-screen h-screen flex justify-center'>
                 
 
-                <div className='grid grid-cols-4 gap-12 items-center w-2/3 h-2/3  mt-5'>
-                    <div className='card'>
+                <div className='grid  md:grid-cols-4 gap-12 items-center w-2/3 h-2/3  mt-5'>
+                    <div className='card w-full h-2/5'>
                         <h1 className='mb-12 text-2xl text-silver'>Languages</h1>
                         <div className='flex  gap-2'>
                             <h2 className='text-4xl'> <FaPython /></h2>
@@ -64,7 +66,7 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
                             <h2 className='text-4xl'> <DiCss3 /> </h2>
                         </div>
                     </div>
-                    <div className='card'>
+                    <div className='card w-full h-2/5'>
                         <h1 className='mb-8 mt-2 text-2xl text-silver'>FrameWorks</h1>
                         <div className='flex items-center gap-2'>
                             <h2 className='text-5xl'> <DiReact /></h2>
@@ -73,7 +75,7 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
                             <h2 className='text-4xl'> <SiSequelize /></h2>
                         </div>
                     </div>
-                    <div className='card'>
+                    <div className='card w-full h-2/5'>
                         <h1 className='mb-12 text-2xl text-silver'>Dev Tools</h1>
                         <div className='flex  gap-4'>
                             <h2 className='text-4xl'> <SiPostgresql /></h2>
@@ -81,7 +83,7 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
                             <h2 className='text-4xl'> <AiFillCode /></h2>
                         </div>
                     </div>
-                    <div className='card'>
+                    <div className='card w-full h-2/5'>
                         <h1 className='mb-10 mt-6 text-2xl text-silver'>Learning</h1>
                         <div className='flex  gap-4'>
                             <h2 className='text-5xl'> <FaJava /></h2>

@@ -114,8 +114,9 @@ button:after {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 240px;
-  height: 270px;
+  min-width: fit-content;
+  /* width: 240px;
+  height: 270px; */
   background-image: linear-gradient(163deg, #1e76ad 0%, #9a5deb 100%);
   border-radius: 20px;
   transition: all .3s;
