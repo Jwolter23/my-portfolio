@@ -9,7 +9,19 @@ import { AiOutlineGithub } from 'react-icons/ai'
 import { AiOutlineMail } from 'react-icons/ai'
 import { AiFillLinkedin } from 'react-icons/ai'
 import { AiFillProfile } from 'react-icons/ai'
-
+import { FaPython } from 'react-icons/fa'
+import { DiJavascript1 } from 'react-icons/di'
+import { AiOutlineConsoleSql } from 'react-icons/ai'
+import { AiFillHtml5 } from 'react-icons/ai'
+import { DiCss3 } from 'react-icons/di'
+import { DiReact } from 'react-icons/di'
+import { FaNodeJs } from 'react-icons/fa'
+import { DiDjango } from 'react-icons/di'
+import { SiSequelize } from 'react-icons/si'
+import { SiPostgresql } from 'react-icons/si'
+import { AiFillCode } from 'react-icons/ai'
+import { FaJava } from 'react-icons/fa'
+import { DiPhp } from 'react-icons/di'
 
 export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick2, handleClick }) {
     
@@ -37,8 +49,49 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
                 
             </div>
 
-            <div className='w-screen h-screen'>
-                <h1 ref={myRef3} className='flex justify-center text-4xl text-silver'>About Me</h1>
+            <h1 ref={myRef3} className='flex justify-center text-4xl text-silver'>About Me</h1>
+            <div className='w-screen h-screen flex justify-center'>
+                
+
+                <div className='grid grid-cols-4 gap-12 items-center w-2/3 h-2/3  mt-5'>
+                    <div className='card'>
+                        <h1 className='mb-12'>Languages</h1>
+                        <div className='flex  gap-2'>
+                            <h2 className='text-4xl'> <FaPython /></h2>
+                            <h2 className='text-4xl'> <DiJavascript1 /></h2>
+                            <h2 className='text-4xl'> <AiOutlineConsoleSql /> </h2>
+                            <h2 className='text-4xl'> <AiFillHtml5 /></h2>
+                            <h2 className='text-4xl'> <DiCss3 /> </h2>
+                        </div>
+                    </div>
+                    <div className='card'>
+                        <h1 className='mb-8 mt-2'>FrameWorks</h1>
+                        <div className='flex items-center gap-2'>
+                            <h2 className='text-5xl'> <DiReact /></h2>
+                            <h2 className='text-4xl'> <FaNodeJs /></h2>
+                            <h2 className='text-6xl'> <DiDjango /></h2>
+                            <h2 className='text-4xl'> <SiSequelize /></h2>
+                        </div>
+                    </div>
+                    <div className='card'>
+                        <h1 className='mb-12'>Dev Tools</h1>
+                        <div className='flex  gap-4'>
+                            <h2 className='text-4xl'> <SiPostgresql /></h2>
+                            <h2 className='text-4xl'> <AiOutlineGithub /></h2>
+                            <h2 className='text-4xl'> <AiFillCode /></h2>
+                        </div>
+                    </div>
+                    <div className='card'>
+                        <h1 className='mb-10 mt-6'>Learning</h1>
+                        <div className='flex  gap-4'>
+                            <h2 className='text-5xl'> <FaJava /></h2>
+                            <h2 className='text-7xl'> <DiPhp /></h2>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
             
             <div className=' h-screen w-screen px-8 pt-7'>
@@ -114,16 +167,15 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
             </div>
 
 
-            <div className='h-screen w-screen '>
+            <div className='h-screen w-screen px-4'>
+                <div className='flex justify-center flex-col'>
                 <h1 ref={myRef2} className='flex justify-center text-silver text-4xl'>Contact Me!</h1>
 
-                
-
-                <div className=' w-screen h-2/5 flex items-center justify-center text-6xl gap-10 border-2'>
-                
                 <div className='flex justify-center text-3xl text-silver '>
                     <h1>Now that you've seen my portfolio let's connect!</h1>
                 </div>
+
+                <div className=' w-screen h-2/5 flex justify-center items-center text-6xl gap-10 border-2 '>
                 <a href="https://github.com/Jwolter23" target="_blank" className='text-6xl '><AiOutlineGithub /></a>
                 <a href="mailto:jwolter456@gmail.com" target="_blank" className='text-6xl'><AiOutlineMail /></a>
                 <a href="https://www.linkedin.com/in/jordan-wolter/" target="_blank" className='text-6xl'><AiFillLinkedin /></a>
@@ -133,6 +185,7 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
                 
 
 
+            </div>
             </div>
         </div>
     )

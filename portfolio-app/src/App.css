@@ -108,3 +108,32 @@ button:after {
  .resume:active {
   transform: scale(1.2);
  }
+
+ .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 270px;
+  background-image: linear-gradient(163deg, #1e76ad 0%, #9a5deb 100%);
+  border-radius: 20px;
+  transition: all .3s;
+ }
+ 
+ .card2 {
+  width: 240px;
+  height: 254px;
+  background-color: #1a1a1a;
+  border-radius: 5;
+  transition: all .2s;
+ }
+ 
+ .card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+ }
+ 
+ .card:hover {
+  box-shadow: 0px 0px 30px 1px rgba(4, 47, 75, 0.932);
+ }
