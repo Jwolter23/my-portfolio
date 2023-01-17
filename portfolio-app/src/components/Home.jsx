@@ -114,7 +114,7 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
                     <h1 className='min-w-full min-h-full flex mt-3 px-4 text-silver'>FilmFolio was a passion project of mine based on my love for movies. Starting with the backend, I had created a database using Django. With three models (Users, Movies, and Reviews) I was able to input all the necessary data to be rendered on the front end. Creating the correct URL's and Views was an important part in getting Full CRUD working on the front-end and back-end. Along with setting up my foreign keys and serializers correctly so the data on the back-end could be accessed correctly. Using react, I created a new react-app and started to render the data in my database through axios calls.  Once the data had been rendered I was able to create functional components to get functionality out of my Search feature, movie details, and adding / deleting to a watchlist.  This is a full CRUD application. The reviews section is able to Create a review, Delete a review, Update a review, and of course Read a review. I had also tried a new technology called firebase for getting Auth up and running. Styling was done through CSS and Tailwind.</h1>
                     <div className='flex gap-3 justify-center mt-4 mb-3'>
                     <a href="https://github.com/Jwolter23/FilmFolio" target="_blank">GitHub</a>
-                        <h1 className=''>Deployed Site</h1>
+                    <a href="https://filmfolio.netlify.app/" target="_blank">Deployed Site</a>
                     </div>
                 </div>
                 
