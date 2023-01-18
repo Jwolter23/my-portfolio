@@ -59,8 +59,8 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
             <div className='w-screen h-screen flex justify-center'>
                 
 
-                <div className='grid  md:grid-cols-4 gap-12 justify-center items-center w-full h-full px-8  mt-5'>
-                    <div className='card w-full h-2/5'>
+                <div className='grid  md:grid-cols-4 gap-12 justify-center items-center w-full h-2/3 px-8'>
+                    <div className='card w-full h-1/3'>
                         <h1 className='mb-12 align-top flex justify-center text-2xl text-silver'>Languages</h1>
                         <div className='flex justify-center gap-2'>
                             <h2 className='text-4xl'> <FaPython /></h2>
@@ -70,7 +70,7 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
                             <h2 className='text-4xl'> <DiCss3 /> </h2>
                         </div>
                     </div>
-                    <div className='card w-full h-2/5'>
+                    <div className='card w-full h-1/3'>
                         <h1 className='mb-8 align-top flex justify-center text-2xl text-silver'>FrameWorks</h1>
                         <div className='flex  justify-center items-center gap-2'>
                             <h2 className='text-5xl'> <DiReact /></h2>
@@ -80,7 +80,7 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
                             <h2 className='text-4xl'> <SiTailwindcss /></h2>
                         </div>
                     </div>
-                    <div className='card w-full h-2/5'>
+                    <div className='card w-full h-1/3'>
                         <h1 className='mb-12 align-top flex justify-center text-2xl text-silver'>Dev Tools</h1>
                         <div className='flex justify-center gap-4'>
                             <h2 className='text-4xl'> <SiPostgresql /></h2>
@@ -88,7 +88,7 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
                             <h2 className='text-4xl'> <AiFillCode /></h2>
                         </div>
                     </div>
-                    <div className='card w-full h-2/5'>
+                    <div className='card w-full h-1/3'>
                         <h1 className='mb-10 align-top flex justify-center text-2xl text-silver'>Learning</h1>
                         <div className='flex  justify-center gap-4'>
                             <h2 className='text-5xl'> <FaJava /></h2>
