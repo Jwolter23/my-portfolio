@@ -59,7 +59,7 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
             <div className='w-screen h-screen flex justify-center'>
                 
 
-                <div className='grid  md:grid-cols-4 gap-12 justify-center items-center w-full h-full px-4  mt-5'>
+                <div className='grid  md:grid-cols-4 gap-12 justify-center items-center w-full h-full px-8  mt-5'>
                     <div className='card w-full h-2/5'>
                         <h1 className='mb-12 align-top flex justify-center text-2xl text-silver'>Languages</h1>
                         <div className='flex justify-center gap-2'>
