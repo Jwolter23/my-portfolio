@@ -112,8 +112,8 @@ button:after {
  .card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   min-width: fit-content;
   /* width: 240px;
   height: 270px; */
