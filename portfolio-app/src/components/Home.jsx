@@ -33,7 +33,7 @@ export default function Home ({ myRef, myRef2, myRef3, handleClick3, handleClick
             <button onClick={handleClick}>Projects</button>
             <button onClick={handleClick2}>Contact</button>
             
-            <a className='resume' href="https://docs.google.com/document/d/1P3XO5b7imrJh4cM60MMumxrxfXUk09tZn_G4ZueSs_w/edit" target="_blank">Resume</a>
+            <a className='resume' href="https://drive.google.com/file/d/1hplIEs0gqnJ7ozaWLkbaLjFVwLf-U2xm/view?usp=share_link" target="_blank">Resume</a>
             
             </div>
             
