@@ -9,7 +9,11 @@ module.exports = {
       darkg: '#4D7897',
       doubledark: '#697987'
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        "Oswald": ['Merriweather', "serif"]
+      }
+    },
   },
   plugins: [],
 }
